@@ -1,3 +1,14 @@
+# Here's a Python script that detects a syringe in a live video feed, draws a bounding box around it,
+# and checks the confidence level to determine if it is indeed a syringe. 
+# This example uses the YOLOv8 model for object detection.
+
+# In practice this code would need to be optimized for fast processing time to quickly detect any 
+# errors in administration to prevent health risks, as well as decreasing size of the entire algorithim
+# to implement on a small wearable. 
+
+# Potential solutions for wearable algorithims - tinyML, YOLOv8n (nano), optimized for efficiency and being lightweight.
+# Potential Microcontrollers - STM32F4 Series or STM32WB Series for High Speed processing and wireless communication. 
+
 import cv2
 import torch
 
@@ -13,6 +24,8 @@ while True:
     if not ret:
         Break # End of Video
 
+# Syringe Detection
+    
     # Perform object detection on obtained frame
     results = model(frame)
 
@@ -30,4 +43,12 @@ while True:
     # Display the resulting frame
     cv2.imshow('Syringe Detection', frame)
 
-    # Goes to Optical Character Recognition Step
+# Goes to Optical Character Recognition, picks out the highest confidence text frame and reads the information
+
+# Performs text recognition
+
+# Volume Assessment to detect amount of anesthesia adminisitered (Comparing before and after frames of syringe)
+
+# Data (Text Recognition and Volume Assesment) is reported to Physician and EMR.
+
+

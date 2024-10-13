@@ -5,7 +5,7 @@
 
 Adverse events associated with injectable medications significantly impact patient safety, with drug administration errors being among the most frequently reported incidents in anesthesia. This project aims to develop a real-time auditory or visual feedback system that detects syringe handling by anesthesia providers using computer vision algorithms. By identifying syringes and vials in real-time from head-mounted cameras, we seek to enhance patient safety and reduce medication errors.
 
-I had the unique experience of aiding the engineering side, and helped develop part of the machine vision algorithm. I was responsible for image preprocessing and bounding box annotation. The code is a small example similar to my work performed.
+I had the unique experience of aiding the engineering side, and helped develop part of the machine vision algorithm. I was responsible for image preprocessing and bounding box annotation. The code is an example of my work performed.
 
 ## Implementation Considerations
 

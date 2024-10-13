@@ -6,8 +6,6 @@
 # errors in administration to prevent health risks, as well as decreasing size of the entire algorithim
 # to implement on a small wearable. 
 
-# Potential solutions for wearable algorithims - tinyML, YOLOv8n (nano), optimized for efficiency and being lightweight.
-# Potential Microcontrollers - STM32F4 Series or STM32WB Series for High Speed processing and wireless communication. 
 
 import cv2
 import torch

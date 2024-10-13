@@ -17,8 +17,20 @@ Wearable devices are limited by space and processing power. The code written foc
 * **Form Factor** - For comfort and usability.
 * **Cost** - For accessibility across hospitals.
 
+## Potential Microcontrollers
+
+- **STM32F4 Series**: Known for high-speed processing capabilities, making it suitable for real-time applications.
+- **STM32WB Series**: Offers wireless communication features, which are beneficial for updating physician records wirelessly.
+
+  
 ## Objectives
 
 1. **Determine reliability of drug label identification** using machine learning tools.
 2. **Assess accuracy of automated drug delivery dose calculations**.
 3. **Design and test the feasibility of a power-efficient real-time wearable camera system**.
+
+## References
+
+1. National Institutes of Health. (n.d.). *Project Details: 10782884*. Retrieved from [https://reporter.nih.gov/project-details/10782884](https://reporter.nih.gov/project-details/10782884)
+
+2. Kelly, E. M. (n.d.). *Research Projects*. Retrieved from [https://sites.google.com/uw.edu/kellyem/research-projects?authuser=0](https://sites.google.com/uw.edu/kellyem/research-projects?authuser=0)

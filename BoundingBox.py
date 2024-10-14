@@ -46,21 +46,15 @@ def main():
         # Preprocess the image
         input_image = preprocess_image(frame)
 
-        # Set the input tensor
-        interpreter.set_tensor(input_details[0]['index'], input_image)
-
-        # Run inference
-        interpreter.invoke()
-
         # Get output tensors
         boxes = interpreter.get_tensor(output_details[0]['index'])[0]  # Bounding boxes
         confidences = interpreter.get_tensor(output_details[1]['index'])[0]  # Confidence scores
         class_ids = interpreter.get_tensor(output_details[2]['index'])[0]  # Class IDs
 
-        # Draw bounding boxes on the frame
+        # Draw bounding boxes on the frame, would not be used on deployed model
         draw_bounding_boxes(frame, boxes, class_ids, confidences)
 
-        # Display the resulting frame
+        # Display the resulting frame, would not be used on deployed model
         cv2.imshow('Syringe Detection', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):

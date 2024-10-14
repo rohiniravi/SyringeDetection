@@ -1,6 +1,6 @@
 # Here's a Python script that detects a syringe in a live video feed, draws a bounding box around it,
 # and checks the confidence level to determine if it is indeed a syringe. 
-# This example uses the YOLOv8n model for object detection.
+# This example uses the tensorFlow model for object detection.
 
 # In practice this code would need to be optimized for fast processing time to quickly detect any 
 # errors in administration to prevent health risks, as well as decreasing size of the entire algorithim
